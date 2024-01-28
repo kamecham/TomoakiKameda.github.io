@@ -7,9 +7,9 @@ version: 2
 
 # Personal info
 name: Tomoaki Kameda
-title: PhD.Student in KwanseiGakuin
-email: tomoaki.kameda0205@gmail.com
-website: https://www.kg-nanotech.jp/tmd/
+title: PhD.Student
+email: tomoaki.kameda0205★gmail.com(change "★" to "@")
+#website: https://www.kg-nanotech.jp/tmd/
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -22,7 +22,7 @@ github_username:  kamecham
 # facebook_username: jekyll
 # flickr_username: jekyll
 #instagram_username: jameswgrant
-linkedin_username: 
+linkedin_username: www.linkedin.com/in/tomoakikameda 
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -33,7 +33,7 @@ linkedin_username:
 additional_links:
 - title: itsgoingto.be
   icon: fas fa-globe
-  url: https://www.itsgoingto.be
+  url: https://www.kg-nanotech.jp/tmd/en/
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,69 +48,120 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  I am a Ph.D. student at the [Theoretical Materials Design Lab.](https://www.kg-nanotech.jp/tmd/en/) in Kwansei Gakuin University, and working with [Prof.Katsunori Wakabayashi](https://www.kg-nanotech.jp/tmd/en/professor/) from April 2024.
+  Our research target is to reveal the peculiar electronic, magnetic and transport properties in nano-carbon materials such as graphene, nano-graphene, graphene nanoribbons, nanotubes using theoretical and/or computation method.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+#![Trees](/images/landscape-trees.jpg "Trees")
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: Topological edge states induced by Zak’s phase in A3B monolayers
+        caption: 2018 - 2019
+        #link: github.com/sproogen
         # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+        #additional_links:
+        #  - title:  sproogen/modern-resume-theme
+        #    icon: fab fa-github
+        #    url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        #quote: >
+          #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          I have focused the theoretical materials design of A3B atomic sheet, which possess the edge localized states from the viewpoint of topological Zak’s phase. The main part of the thesis has been published in Phys. Rev. B (2019).
+
+  - title: Published # Title for the section
+    layout: text # Type of content section (list/text)
+    content: |
+          <font size="4.5" style="font-weight: bold;">[1] Topological edge states induced by Zak’s phase in A3B monolayers.</font>[Physical Review B 99, 075426 (2019).](10.1103/PhysRevB.99.075426)
+       
+  - title: Conference Presentation # Title for the section
+    layout: text # Type of content section (list/text)
+    content: |
+      <font size="4.5" style="font-weight: bold;">[1] T. Kameda, F. Liu, K. Wakabayashi, Topological Edge States Induced by Zak’s phase in A3B Monolayers</font>
+      31st International Micro processes and Nanotechnology Conference, Sapporo Park Hotel, Sapporo, Japan, November 16, 2019.
+
+      <font size="4.5" style="font-weight: bold;">[2] T. Kameda, F. Liu, K. Wakabayashi, Topological Edge States Induced by Zak’s phase in A3B Monolayers</font>
+      56th The Fullerenes, Nanotubes and Graphene Research Society Symposium, The University of Tokyo, Japan, March 4, 2019
+
+      <font size="4.5" style="font-weight: bold;">[3] T. Kameda, F. Liu, K. Wakabayashi, Theoretical Analysis of Electronic States and Topological Properties of Two-Dimensional C3N Atomic Films</font>
+      73rd Annual Meeting of the Physical Society of Japan, Tokyo University of Science, March 22, 2018.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        title: Kwansei Gakuin University
+        link: https://www.kg-nanotech.jp/tmd/en/
+        link_text: Theoretical Materials Design Lab.
+        sub_title: Special researcher
+        caption: Jan 2024 - Mar 2024
+        #quote: >
+        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            I have studied the theoretical study of two-dimensional topological materials.
+
+      - layout: left
+        title: Management Information Center Co. Ltd, Osaka, Japan
+        link: https://www.mic-west.co.jp/mic/
+        link_text: MIC Group.com
+        sub_title: Development Engineer in the Automotive System
+        caption: April 2019 - June 2023
+        #quote: >
+        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+          - Developed Ethernet switch to be installed in cars.
+          - Developed Web application related to MaaS business.
+          - Doing a series of development work such as design, coding, and testing.
+          - Programming training for new employees.
+
+          I was a development engineer in the Information and Communication Technology (ICT) company in Osaka, Japan. I was working on a project for the development of an Ethernet Switch and making a network system that is included in automobiles.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: PHD (Physics)
+        caption: 2024 - current
+        sub_title: Kwansei Gakuin University
+        #quote: >
+          #Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          Department of Physics, Kwansei Gakuin University, Japan
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+      - layout: left
+        title: MSc (Physics)
+        caption: 2017 - 2019
+        sub_title: Kwansei Gakuin University
+        #quote: >
+          #Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          Department of Physics, Kwansei Gakuin University, Japan
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      - layout: left
+        title: BSc (Physics)
+        caption: 2013 - 2017
+        sub_title: Kwansei Gakuin University
+        #quote: >
+          #Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          Department of Physics, Kwansei Gakuin University, Japan
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+#  - title: A Little More About Me
+#    layout: text
+#    content: | # this will include new lines to allow paragraphs
+#      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+#      - Rock climbing
+#      - Gaming
+#      - Knitting
+#      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+#     Look at this cool image  
+#      ![Trees](/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
