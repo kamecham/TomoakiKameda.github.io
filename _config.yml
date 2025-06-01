@@ -1,178 +1,308 @@
-# Site
-repository: sproogen/resume-theme
-favicon: images/favicon.ico
+###########################################################
+### Welcome to Beautiful Jekyll!
+### This config file is meant for settings that affect your entire website. When you first
+### set up your website you should go through all these settings and edit them, but after
+### the initial set up you won't need to come back to this file often.
+###########################################################
 
-# Content configuration version
-version: 2
+############################
+# --- Required options --- #
+############################
 
-# Personal info
-name: Tomoaki Kameda
-title: PhD.Student
-email: tomoaki.kameda0205★gmail.com(change "★" to "@")
-#website: https://www.kg-nanotech.jp/tmd/
+# Name of website
+title: Tomoaki Kameda
 
-# Dark Mode (true/false/never)
-darkmode: false
+# Your name to show in the footer
+author: Tomoaki Kameda
 
-# Social links
-#twitter_username: facespics
-github_username:  kamecham
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-#instagram_username: jameswgrant
-linkedin_username: tomoakikameda
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+###############################################
+# --- List of links in the navigation bar --- #
+###############################################
 
-# Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.kg-nanotech.jp/tmd/en/
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
+navbar-links:
+  #About Me: "aboutme"
+  Projects: "projects"
+  Resumes: "resume"
+#  Blog: "blog"
+#  Resources:
+#    - Beautiful Jekyll: "https://beautifuljekyll.com"
+#    - Learn markdown: "https://www.markdowntutorial.com/"
+#  Author's home: "https://deanattali.com"
 
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+################
+# --- Logo --- #
+################
 
-# About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  I am a Ph.D. student at the [Theoretical Materials Design Lab.](https://www.kg-nanotech.jp/tmd/en/) in Kwansei Gakuin University, and working with [Prof.Katsunori Wakabayashi](https://www.kg-nanotech.jp/tmd/en/professor/) from April 2024.
-  Our research target is to reveal the peculiar electronic, magnetic and transport properties in nano-carbon materials such as graphene, nano-graphene, graphene nanoribbons, nanotubes using theoretical and/or computation method.
+# Image to show in the navigation bar - works best with a square image
+# Remove this parameter if you don't want an image in the navbar
+avatar: "/assets/img/avatar-icon.png"
 
-#![Trees](/images/landscape-trees.jpg "Trees")
+# By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
+round-avatar: true
 
-content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Topological edge states induced by Zak’s phase in A3B monolayers
-        caption: 2018 - 2019
-        #link: github.com/sproogen
-        # link_text: Project Website
-        #additional_links:
-        #  - title:  sproogen/modern-resume-theme
-        #    icon: fab fa-github
-        #    url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        #quote: >
-          #This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I have focused the theoretical materials design of A3B atomic sheet, which possess the edge localized states from the viewpoint of topological Zak’s phase. The main part of the thesis has been published in Phys. Rev. B (2019).
+# If you want to have an image logo in the top-left corner instead of having the title of the website,
+# then specify the following parameter
+#title-img: /path/to/image
 
-  - title: Published # Title for the section
-    layout: text # Type of content section (list/text)
-    content: |
-          <font size="4.5" style="font-weight: bold;">[1] Topological edge states induced by Zak’s phase in A3B monolayers.</font>[Physical Review B 99, 075426 (2019).](10.1103/PhysRevB.99.075426)
-       
-  - title: Conference Presentation # Title for the section
-    layout: text # Type of content section (list/text)
-    content: |
-      <font size="4.5" style="font-weight: bold;">[1] T. Kameda, F. Liu, K. Wakabayashi, Topological Edge States Induced by Zak’s phase in A3B Monolayers</font>
-      31st International Micro processes and Nanotechnology Conference, Sapporo Park Hotel, Sapporo, Japan, November 16, 2019.
 
-      <font size="4.5" style="font-weight: bold;">[2] T. Kameda, F. Liu, K. Wakabayashi, Topological Edge States Induced by Zak’s phase in A3B Monolayers</font>
-      56th The Fullerenes, Nanotubes and Graphene Research Society Symposium, The University of Tokyo, Japan, March 4, 2019
+#####################################
+# --- Footer social media links --- #
+#####################################
 
-      <font size="4.5" style="font-weight: bold;">[3] T. Kameda, F. Liu, K. Wakabayashi, Theoretical Analysis of Electronic States and Topological Properties of Two-Dimensional C3N Atomic Films</font>
-      73rd Annual Meeting of the Physical Society of Japan, Tokyo University of Science, March 22, 2018.
+# Select the social network links that you want to show in the footer.
+# You can change the order that they show up on the page by changing the order here.
+# Uncomment the links you want to show and add your information to each one.
+social-network-links:
+  email: "tomoaki.kameda0205@gmail.com"
+  #rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  #facebook: deanattali
+  github: kamecham
+  #twitter: daattali
+  #patreon: DeanAttali
+  #youtube: "@daattali"
+  #whatsapp: 15551212
+#  medium: yourname
+#  reddit: yourname or r/yoursubreddit
+  linkedin: tomoakikameda
+#  xing: yourname
+#  stackoverflow: "3943160/daattali"
+#  snapchat: deanat78
+#  instagram: deanat78
+#  spotify: yourname
+#  telephone: +14159998888
+#  steam: deanat78
+#  twitch: yourname
+#  yelp: yourname
+#  telegram: yourname
+#  calendly: yourname
+#  mastodon: instance.url/@username
+#  bluesky: yourname
+ # ORCID: your ORCID ID
+#  google-scholar: your google scholar
+#  discord: "invite_code" or "users/userid" or "invite/invite_code"
+#  kaggle: yourname
+#  hackerrank: yourname
+#  gitlab: yourname
+#  itchio: yourname
+#  untappd: yourname
+#  strava: youruserid
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Kwansei Gakuin University
-        link: https://www.kg-nanotech.jp/tmd/en/
-        link_text: Theoretical Materials Design Lab.
-        sub_title: Special researcher
-        caption: Jan 2024 - Mar 2024
-        #quote: >
-        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            I have studied the theoretical study of two-dimensional topological materials.
+# If you want your website to generate an RSS feed, provide a description
+# The URL for the feed will be https://<your_website>/feed.xml
+rss-description: This website is a virtual proof that I'm awesome
 
-      - layout: left
-        title: Management Information Center Co. Ltd, Osaka, Japan
-        link: https://www.mic-west.co.jp/mic/
-        link_text: MIC Group.com
-        sub_title: Development Engineer in the Automotive System
-        caption: April 2019 - June 2023
-        #quote: >
-        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-          - Developed Ethernet switch to be installed in cars.
-          - Developed Web application related to MaaS business.
-          - Doing a series of development work such as design, coding, and testing.
-          - Programming training for new employees.
+###########################
+# --- General options --- #
+###########################
 
-          I was a development engineer in the Information and Communication Technology (ICT) company in Osaka, Japan. I was working on a project for the development of an Ethernet Switch and making a network system that is included in automobiles.
+# Select which social network share links to show in posts
+share-links-active:
+  twitter: true
+  facebook: true
+  linkedin: true
+  vk: false
+  reddit: false
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: PHD (Physics)
-        caption: 2024 - current
-        sub_title: Kwansei Gakuin University
-        #quote: >
-          #Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          Department of Physics, Kwansei Gakuin University, Japan
+# How to display the link to your website in the footer
+# Remove this if you don't want a link in the footer
+url-pretty: "MyWebsite.com"
 
-      - layout: left
-        title: MSc (Physics)
-        caption: 2017 - 2019
-        sub_title: Kwansei Gakuin University
-        #quote: >
-          #Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          Department of Physics, Kwansei Gakuin University, Japan
+# Add the website title to the title of every page
+title-on-all-pages: true
 
-      - layout: left
-        title: BSc (Physics)
-        caption: 2013 - 2017
-        sub_title: Kwansei Gakuin University
-        #quote: >
-          #Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          Department of Physics, Kwansei Gakuin University, Japan
+# Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
+excerpt_length: 50
 
-#  - title: A Little More About Me
-#    layout: text
-#    content: | # this will include new lines to allow paragraphs
-#      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-#      - Rock climbing
-#      - Gaming
-#      - Knitting
-#      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+# Whether or not to show an excerpt for every blog post in the feed page
+feed_show_excerpt: true
 
-#     Look at this cool image  
-#      ![Trees](/images/landscape-trees.jpg "Trees")
+# Whether or not to show a list of tags below each post preview in the feed page
+feed_show_tags: true
 
-# Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
+# Add a search button to the navbar
+post_search: true
 
-# Build settings
-remote_theme: sproogen/resume-theme
+# Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
+edit_page_button: true
 
-sass:
-  sass_dir: _sass
-  style: compressed
+# Allow sub-menu items (second-level navigation menu items) to be longer than the top-level menu
+# If this setting is off, then long sub-menu words might get cut off
+# See https://github.com/daattali/beautiful-jekyll/issues/765 to understand the issue this setting can solve
+navbar-var-length: false
+
+# The keywords to associate with your website, for SEO purposes
+#keywords: "my,list,of,keywords"
+
+######################################
+# --- Colours / background image --- #
+######################################
+
+# Personalize the colours in your website. Colour values can be any valid CSS colour
+
+page-col: "#FFFFFF"
+text-col: "#404040"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+navbar-col: "#EAEAEA"
+navbar-text-col: "#404040"
+navbar-border-col: "#DDDDDD"
+footer-col: "#EAEAEA"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+footer-hover-col: "#0085A1"
+
+# Alternatively, the navbar, footer, and page background can be set to an image
+# instead of colour
+
+#navbar-img: "/assets/img/bgimage.png"
+#footer-img: "/assets/img/bgimage.png"
+#page-img: "/assets/img/bgimage.png"
+
+# Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
+#mobile-theme-col: "#0085A1"
+
+# For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
+#site-css:
+#  - "/assets/css/custom-styles.css"
+
+# If you have common JavaScript files that should be included in every page, list them here
+#site-js:
+#  - "/assets/js/custom-script.js"
+
+#################################
+# --- Web Analytics Section --- #
+#################################
+
+# Fill in your Google Analytics tag ID (or "Measurement ID") to track your website usage
+#gtag: "G-XXXXXXXXXX"
+
+# Fill in your Cloudflare Analytics beacon token to track your website using Cloudflare Analytics
+#cloudflare_analytics: ""
+
+# Google Tag Manager ID
+#gtm: ""
+
+# Matomo (aka Piwik) Web statistics
+# Uncomment the following section to enable Matomo. The opt-out parameter controls
+# whether or not you want to allow users to opt out of tracking.
+#matomo:
+#  site_id: "9"
+#  uri: "demo.wiki.pro"
+#  opt-out: true
+
+# Google Universal Analytics ID -- deprecated
+# As of July 2023 this is no longer supported by Google! If you are still using `google_analytics`,
+# you should switch to using the `gtag` field above instead.
+#google_analytics: "UA-XXXXXXXX-X"
+
+####################
+# --- Comments --- #
+####################
+
+# To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
+#disqus: ""
+
+# To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
+#fb_comment_id: ""
+
+# To use CommentBox, sign up for a Project ID on https://commentbox.io
+#commentbox: "" # Project ID, e.g. "5694267682979840-proj"
+
+# To use Utterances comments: (0) uncomment the following section, (1) fill in
+# "repository" (make sure the repository is public), (2) Enable Issues in your repository,
+# (3) Install the Utterances app in your repository https://github.com/apps/utterances
+# See more details about the parameters below at https://utteranc.es/
+#utterances:
+#  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
+#  issue-term: title   # Mapping between blog posts and GitHub issues
+#  theme: github-light # Utterances theme
+#  label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
+
+# To use Staticman comments, uncomment the following section. You may leave the reCaptcha
+# section commented if you aren't using reCaptcha for spam protection.
+# Using Staticman requires advanced knowledge, please consult
+# https://github.com/eduardoboucas/staticman/ and https://staticman.net/ for further
+# instructions. For any support with staticman please direct questions to staticman and
+# not to BeautifulJekyll.
+#staticman:
+#  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
+#  branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
+#  endpoint   : # URL of your deployment, with a trailing slash eg. "https://<your-api>/v3/entry/github/"
+#  reCaptcha:   # (optional, set these parameters in `staticman.yml` as well)
+#    siteKey  : # You need to apply for a site key on Google
+#    secret   : # Encrypt your password by going to https://<your-own-api>/v3/encrypt/<your-site-secret>
+
+# To use giscus comments:
+# (0) Uncomment the following giscus section, (1) Enable Discussions in your GitHub repository,
+# (2) Install the giscus app in your repository (details at https://giscus.app),
+# (3) Fill in *all* the parameters below
+# See more details about giscus and each of the following parameters at https://giscus.app
+#giscus:
+#  hostname: giscus.app # Replace with your giscus instance's hostname if self-hosting
+#  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
+#  repository-id: # ID of your repository, retrieve this info from https://giscus.app
+#  category: Announcements # Category name of your GitHub Discussion posts
+#  category-id: # ID of your category, retrieve this info from https://giscus.app
+#  mapping: pathname
+#  reactions-enabled: 1
+#  emit-metadata: 0
+#  theme: light
+
+################
+# --- Misc --- #
+################
+
+# Ruby Date Format to show dates of posts
+date_format: "%B %-d, %Y"
+
+# Facebook App ID
+#fb_app_id: ""
+
+#################################################################################
+# --- You don't need to touch anything below here (but you can if you want) --- #
+#################################################################################
+
+# Output options (more information on Jekyll's site)
+timezone: "America/Toronto"
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
+
+kramdown:
+  input: GFM
+
+# Default YAML values (more information on Jekyll's site)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
+  -
+    scope:
+      path: "" # any file that's not a post will be a "page" layout by default
+    values:
+      layout: "page"
+
+# Exclude these files from production site
+exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - screenshot.png
+  - docs/
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Beautiful Jekyll / Dean Attali
+# 2fc73a3a967e97599c9763d05e564189
+

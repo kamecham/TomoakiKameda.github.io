@@ -1,1 +1,0 @@
-# TomoakiKameda.github.io
