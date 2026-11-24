@@ -79,8 +79,8 @@ social-network-links:
 #  calendly: yourname
 #  mastodon: instance.url/@username
 #  bluesky: yourname
-#  ORCID: 0000-0000-0000-0000        # TODO: add your ORCID iD
-#  google-scholar: XXXXXXXXXXXX     # TODO: add your Google Scholar user id
+  ORCID: 0009-0005-1977-9178
+  google-scholar: HvIXeq4AAAAJ
 #  discord: "invite_code" or "users/userid" or "invite/invite_code"
 #  kaggle: yourname
 #  hackerrank: yourname

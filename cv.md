@@ -5,13 +5,15 @@ subtitle: Curriculum Vitae
 share-description: Curriculum vitae of Tomoaki Kameda.
 ---
 
+**Researcher IDs:** [ORCID 0009-0005-1977-9178](https://orcid.org/0009-0005-1977-9178) · [Google Scholar](https://scholar.google.com/citations?user=HvIXeq4AAAAJ)
+
 <!-- TODO: add a downloadable PDF version, e.g. [Download CV (PDF)]({{ site.baseurl }}/assets/cv/Kameda_CV.pdf) -->
 
 ### Positions
-- **2026.06–present:** NIMS Junior Researcher, National Institute for Materials Science (NIMS), Tsukuba, Japan
+- **2026.06–present:** NIMS Junior Researcher, International Center for Materials Nanoarchitectonics (WPI-MANA), National Institute for Materials Science (NIMS), Tsukuba, Japan
 - **2024.08–2026.05:** Research Assistant, Kwansei Gakuin University, Japan
 - **2024.01–2024.03:** Special Researcher, School of Science and Technology, Kwansei Gakuin University, Japan
-- **2019.04–2023.05:** Systems Engineer (automotive embedded software development), Management Information Center Co., Ltd., Osaka, Japan
+- **2019.04–2023.05:** Systems Engineer, Management Information Center Co., Ltd., Osaka, Japan — automotive embedded software (C/C++), web applications, CI/CD-based test automation
 
 ### Education
 - **2024.04–2027.03 (expected):** Ph.D. course, Department of Nanotechnology for Sustainable Energy, Graduate School of Science and Technology, Kwansei Gakuin University — Ph.D. (Science) expected March 2027

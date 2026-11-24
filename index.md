@@ -10,7 +10,7 @@ I am a Ph.D. candidate in theoretical and computational condensed matter physics
 
 My research focuses on how symmetry and nanoscale structure govern electronic states, topology, and charge and spin responses in two-dimensional materials — in particular, light-induced spin currents in Janus transition-metal dichalcogenides, shift currents in ferroelectric multidomain structures, and valley physics in layered WSe₂.
 
-I combine first-principles calculations, tight-binding models, and linear and nonlinear response theory to uncover microscopic mechanisms and to propose new ways of controlling material properties. Before returning to academia, I worked for four years as a systems engineer developing automotive embedded software.
+I combine first-principles calculations, tight-binding models, and linear and nonlinear response theory to uncover microscopic mechanisms and to propose new ways of controlling material properties. Before returning to academia, I worked for four years as a systems engineer developing automotive embedded software and web applications.
 
 **At a glance:** [6 peer-reviewed papers]({{ site.baseurl }}/publications/) (2 first-author) · 4 under review · 18 first-author presentations (7 international) · [3 awards and 4 competitive grants as PI]({{ site.baseurl }}/cv/)
 
@@ -59,8 +59,8 @@ Also: valley physics in layered WSe₂ (collaborative). More details on the [Res
 - **2026.06** — Joined NIMS as a NIMS Junior Researcher.
 
 ### Methods & Skills
-<!-- TODO: add the DFT codes and programming languages you actually use (e.g., VASP / Quantum ESPRESSO, C/C++) -->
-- **Electronic structure:** first-principles (DFT) calculations, tight-binding modeling
-- **Response theory:** Kubo formula, nonlinear optical responses (shift current, photo-induced spin current), Berry phase and topological invariants (Zak phase)
-- **Programming:** Python for numerical computation
-- **Software engineering:** 4 years of industrial embedded-software development; Applied Information Technology Engineer (IPA, 2023)
+- **Electronic structure:** first-principles (DFT) calculations of 2D materials with VASP and Quantum ESPRESSO
+- **Modeling & symmetry:** effective tight-binding models built with Wannier90 and in-house codes; group-theoretical analysis of response tensors (TMDCs, ferroelectric SnS, topological materials)
+- **Response theory:** Kubo-formula calculations of linear and nonlinear optical responses (spin current, shift current) with in-house, performance-optimized Python codes; Berry phase and topological invariants (Zak phase)
+- **Programming & tools:** Python, C/C++, Fortran, Mathematica, Git, Linux, LaTeX
+- **Software engineering:** 4 years as a systems engineer — automotive embedded software (C/C++), web applications, CI/CD-based test automation, and programming training for new employees; Applied Information Technology Engineer (IPA, 2023)
