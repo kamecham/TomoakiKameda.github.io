@@ -2,7 +2,7 @@
 layout: page
 title: 亀田 智明
 subtitle: 物性理論・計算物質科学
-description: 亀田智明 — 関西学院大学 博士後期課程／NIMSジュニア研究員。二次元物質におけるスピン流・非線形光応答の理論・計算研究。
+share-description: 亀田智明 — 関西学院大学 博士後期課程／NIMSジュニア研究員。二次元物質におけるスピン流・非線形光応答の理論・計算研究。
 ---
 
 [English page]({{ site.baseurl }}/)
@@ -33,7 +33,7 @@ description: 亀田智明 — 関西学院大学 博士後期課程／NIMSジュ
 - 受賞 **3件**
 - 外部資金 **4件**（研究代表者、計約250万円）
 
-論文・発表の一覧は[英語ページ]({{ site.baseurl }}/#publications)をご覧ください。
+論文・発表の一覧は[Publications]({{ site.baseurl }}/publications/)、英語のCVは[CV]({{ site.baseurl }}/cv/)をご覧ください。
 
 ### 経歴
 - **2026年6月–現在**：物質・材料研究機構（NIMS）NIMSジュニア研究員

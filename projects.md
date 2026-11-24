@@ -1,20 +1,69 @@
 ---
 layout: page
+share-description: "Research of Tomoaki Kameda: optical spin transport in Janus TMDCs, symmetry-selective shift current in polar multidomain structures, and topological edge states in A3B monolayers."
 title: Research
-#subtitle: PhD.Student
+subtitle: Symmetry, wave functions, and responses in two-dimensional materials
 ---
-### Optically induced spin Hall current in Janus transition metal dichalcogenides.(2024-2025)
-Monolayer Janus transition-metal dichalcogenides (TMDCs), such as WSeTe, exhibit Rashba-type spin-orbit coupling (SOC) due to broken out-of-plane mirror symmetry. Here, we theoretically demonstrate that pure spin Hall currents can be generated under light irradiation based on a tight-binding model. Rashba-type SOC plays a crucial role in determining the spin polarization direction and enhancing the generation efficiency of pure spin Hall currents. Our findings establish Janus TMDCs as promising materials for next-generation optospintronic devices.
-#### slide
-[▶ PDFを開く](../assets/projects/2025_optically_induced_spin_hall_current.pdf)
-<iframe src="../assets/projects/2025_optically_induced_spin_hall_current.pdf" width="100%" height="600px"></iframe>
 
-### Topological edge states induced by Zak’s phase in A3B monolayers.(2019)
-In crystalline systems, charge polarization is related to the Zak phase determined by bulk band topology. 
-Nontrivial charge polarization induces robust edge states accompanied by fractional charge. 
-In the Su-Schrieffer-Heeger model, it is known that the strong modulation of electron hopping causes nontrivial charge polarization even in the presence of inversion symmetry. Here, we consider a biatomic honeycomb lattice to introduce such strong modulation, i.e., a A$_3$B sheet. 
-By tuning the hopping ratio and on-site potential difference between the A and B atoms, we show that the topological phase transition characterized by the Zak phase occurs. Furthermore, we propose that C$_3$N and BC$_3$ are possible realistic materials on the basis of first-principles calculations. 
-Both of them display topological edge states induced by the Zak phase without spin-orbital couplings and external fields, unlike conventional topological insulators.
-#### slide
-[▶ PDFを開く](../assets/projects/2018_master_thesis_slide.pdf)
-<iframe src="../assets/projects/2018_master_thesis_slide.pdf" width="100%" height="600px"></iframe>
+My research investigates how crystal symmetry and the structure of electronic wave functions determine the properties of two-dimensional (2D) materials. I combine tight-binding modeling, first-principles electronic-structure calculations, and response theory to identify the microscopic mechanisms behind topological edge states, optically induced spin transport, and nonlinear photocurrents.
+
+**Topics:** [Optical spin transport in Janus TMDCs](#janus) · [Shift current in polar multidomain structures](#multidomain) · [Valley physics in layered WSe₂](#wse2) · [Topological edge states in A₃B monolayers](#a3b)
+
+---
+
+### Rashba-enabled optical spin transport in Janus TMDCs {#janus}
+
+![Janus TMDC structure and light-induced spin Hall current]({{ site.baseurl }}/assets/img/research/janus-spin-current.png){: style="max-width:560px; width:100%"}
+
+*(a) Janus TMDC with an out-of-plane internal electric field from its structural asymmetry. (b) Schematic of spin Hall current generation under linearly polarized light. Adapted from T. Kameda and K. Wakabayashi, Phys. Rev. B 111, 195425 (2025). © 2025 American Physical Society.*
+
+In monolayer Janus transition-metal dichalcogenides (TMDCs) such as WSeTe, the two chalcogen layers differ, which breaks out-of-plane mirror symmetry. Using a multiorbital tight-binding model with spin–orbit coupling (SOC) and the Kubo formula, I calculated the spin-dependent optical conductivity — the finite-frequency response of spin currents to light.
+
+- Rashba-type SOC, allowed only by the broken mirror symmetry, produces **pure transverse spin currents with in-plane spin polarization**, and also enhances the out-of-plane-polarized spin Hall response associated with Ising SOC.
+- Symmetry analysis of the conductivity tensor tells which current and spin-polarization components are allowed, so the **polarization and magnitude of the spin current can be controlled** by the symmetry-induced spin texture.
+- In a collaborative first-principles study of metallic Janus NbSSe, the coexistence of Ising- and Rashba-type SOC lets the **direction of linear light polarization select different spin-current components**.
+
+**Papers:** T. Kameda and K. Wakabayashi, [*Phys. Rev. B* **111**, 195425 (2025)](https://doi.org/10.1103/PhysRevB.111.195425) · S. Adhikary, T. Kameda, and K. Wakabayashi, [*Phys. Chem. Chem. Phys.* **27**, 19997 (2025)](https://doi.org/10.1039/D5CP02135A)
+
+**Slides:** [JPS Spring Meeting 2025 (PDF)]({{ site.baseurl }}/assets/projects/2025_optically_induced_spin_hall_current.pdf)
+
+---
+
+### Symmetry-selective shift current in polar multidomain structures {#multidomain}
+
+![SnS structure, head-to-head and head-to-tail domain models, and anisotropic shift current]({{ site.baseurl }}/assets/img/research/multidomain-shift-current.png)
+
+*(a) Crystal structure of SnS. (b) Head-to-head and head-to-tail domain arrangements. (c) The corresponding 2D Su–Schrieffer–Heeger (SSH) models. (d) Schematic of anisotropic shift-current generation in a system containing both arrangements. Adapted from T. Kameda, K. Nagashio, and K. Wakabayashi, arXiv:2611.05990.*
+
+The shift current is a DC photocurrent generated by light in materials without inversion symmetry. Ferroelectric SnS forms domains with different polarization directions, and I study how their arrangement shapes this nonlinear response.
+
+- **Microscopic origin in SnS** (collaborative): comparing short- and long-range tight-binding models derived from first principles, and decomposing the response into optical transition intensity and shift vector, identified the interband processes responsible for the shift current.
+- **Theory for experiment** (collaboration with experimental researchers): I built a minimal 2D SSH model of polar multidomain structures that qualitatively explains why the measured photocurrent depends on how domain walls are arranged relative to the electrodes.
+- **Symmetry selection** (first-author, submitted): in periodic head-to-head and head-to-tail superlattices, the full-supercell mirror and glide symmetries select **mutually exclusive sets of shift-current tensor components** — interface-parallel versus interface-normal channels. Single-domain averages do not reproduce the multidomain spectra, and in the head-to-tail case even the sign of the leading feature differs. **The domain arrangement itself becomes a control parameter** for nonlinear optical responses.
+
+**Papers:** T. Kameda, K. Nagashio, and K. Wakabayashi, [arXiv:2611.05990](https://arxiv.org/abs/2611.05990) (submitted) · R. Nanae *et al.*, [*Adv. Funct. Mater.* **36**, e77741 (2026)](https://doi.org/10.1002/adfm.77741) · Y. Kusunoki, T. Kameda, and K. Wakabayashi, [*J. Phys. Soc. Jpn.* **95**, 074802 (2026)](https://doi.org/10.7566/JPSJ.95.074802)
+
+---
+
+### Valley physics in layered WSe₂ {#wse2}
+
+In collaborative studies of multilayer WSe₂, carrier redistribution between the K and Γ valleys was linked to transistor transconductance: the valley-crossover contribution suppresses the transconductance in the bilayer and changes its sign in the trilayer, connecting internal valley populations to an electrical observable. Ongoing work addresses how ferroelectricity in rhombohedral (R-stacked) bilayer WSe₂ controls the K–Γ valley landscape.
+
+**Papers:** K. Wakabayashi, S. Adhikary, and T. Kameda, [*Phys. Rev. B* **114**, 115403 (2026)](https://doi.org/10.1103/xsr9-l7ll) · [arXiv:2611.15494](https://arxiv.org/abs/2611.15494) · [arXiv:2611.19705](https://arxiv.org/abs/2611.19705) (submitted)
+
+---
+
+### Topological edge states induced by the Zak phase in A₃B monolayers {#a3b}
+
+![A3B lattice, nanoribbon, bulk band structure, and edge states]({{ site.baseurl }}/assets/img/research/a3b-edge-states.png){: style="max-width:520px; width:100%"}
+
+*(a) A₃B monolayer and (b) nanoribbon structure. (c) Bulk band structure. (d) Nanoribbon band structure showing topological edge states. Adapted from T. Kameda, F. Liu, S. Dutta, and K. Wakabayashi, Phys. Rev. B 99, 075426 (2019). © 2019 American Physical Society.*
+
+In a biatomic honeycomb lattice (A₃B sheet), I showed how the Zak phase — a Berry phase of Bloch states — governs edge-localized states. Tuning the hopping ratio and the on-site energy difference between A and B atoms drives a topological phase transition characterized by the Zak phase, and first-principles calculations identified C₃N and BC₃ as possible material realizations.
+
+- The key result is a route to **topological edge states that requires neither SOC nor external fields**, connecting lattice-scale bonding parameters to bulk polarization and edge states.
+- This work established my approach of **combining minimal Hamiltonians with material-specific calculations** to relate wave-function properties to physical phenomena.
+
+**Paper:** T. Kameda, F. Liu, S. Dutta, and K. Wakabayashi, [*Phys. Rev. B* **99**, 075426 (2019)](https://doi.org/10.1103/PhysRevB.99.075426)
+
+**Slides:** [Master's thesis (PDF)]({{ site.baseurl }}/assets/projects/2018_master_thesis_slide.pdf)

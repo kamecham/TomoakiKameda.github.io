@@ -1,5 +1,6 @@
 ---
 layout: page
+share-description: Lecture slides on topological materials and group theory (in Japanese) by Tomoaki Kameda.
 title: Teaching & Resources
 #subtitle: PhD.Student
 ---
