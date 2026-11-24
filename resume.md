@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Resumes
+title: Teaching & Resources
 #subtitle: PhD.Student
 ---
-### slides
+### Lecture slides (in Japanese)
 [トポロジカル物性イントロ①](../assets/resumes/20240423.kameda_topological_intro.pdf)\\
 <!-- <iframe src="../assets/resumes/20240423.kameda_topological_intro.pdf" width="100%" height="600px"></iframe> -->
 [トポロジカル物性イントロ②](../assets/resumes/20240517.kameda_topological_intro.pdf)\\

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects
+title: Research
 #subtitle: PhD.Student
 ---
 ### Optically induced spin Hall current in Janus transition metal dichalcogenides.(2024-2025)
