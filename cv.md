@@ -7,7 +7,7 @@ share-description: Curriculum vitae of Tomoaki Kameda.
 
 **Researcher IDs:** [ORCID 0009-0005-1977-9178](https://orcid.org/0009-0005-1977-9178) · [Google Scholar](https://scholar.google.com/citations?user=HvIXeq4AAAAJ)
 
-<!-- TODO: add a downloadable PDF version, e.g. [Download CV (PDF)]({{ site.baseurl }}/assets/cv/Kameda_CV.pdf) -->
+**[Download CV (PDF, 2 pages)]({{ site.baseurl }}/assets/cv/Kameda_CV.pdf)** · Last updated: November 2026
 
 ### Positions
 - **2026.06–present:** NIMS Junior Researcher, International Center for Materials Nanoarchitectonics (WPI-MANA), National Institute for Materials Science (NIMS), Tsukuba, Japan

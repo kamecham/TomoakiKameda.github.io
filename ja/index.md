@@ -33,7 +33,7 @@ share-description: 亀田智明 — 関西学院大学 博士後期課程／NIMS
 - 受賞 **3件**
 - 外部資金 **4件**（研究代表者、計約250万円）
 
-論文・発表の一覧は[Publications]({{ site.baseurl }}/publications/)、英語のCVは[CV]({{ site.baseurl }}/cv/)をご覧ください。
+論文・発表の一覧は[Publications]({{ site.baseurl }}/publications/)、英語のCVは[CV]({{ site.baseurl }}/cv/)（[PDF]({{ site.baseurl }}/assets/cv/Kameda_CV.pdf)）をご覧ください。
 
 ### 経歴
 - **2026年6月–現在**：物質・材料研究機構（NIMS）国際ナノアーキテクトニクス研究拠点（MANA） NIMSジュニア研究員

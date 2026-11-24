@@ -1,0 +1,130 @@
+% Curriculum Vitae — Tomoaki Kameda
+% Build:  latexmk -pdf -outdir=<tmp> _cv/Kameda_CV.tex  &&  cp <tmp>/Kameda_CV.pdf assets/cv/
+% Public version: do not add home address, phone number, or date of birth.
+\documentclass[10pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{tgpagella}
+\usepackage[scale=0.92]{tgheros}
+\usepackage{microtype}
+\usepackage[a4paper,top=15mm,bottom=15mm,left=18mm,right=18mm]{geometry}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{needspace}
+\usepackage[hidelinks]{hyperref}
+
+\definecolor{accent}{HTML}{1F4E79}
+\definecolor{muted}{HTML}{555555}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent,
+  pdftitle={Curriculum Vitae - Tomoaki Kameda},pdfauthor={Tomoaki Kameda}}
+
+\pagestyle{plain}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\titleformat{\section}{\sffamily\large\bfseries\color{accent}}{}{0pt}{}[\vspace{1pt}{\color{accent}\titlerule[0.6pt]}]
+\titlespacing*{\section}{0pt}{7pt}{3pt}
+\titleformat{\subsection}{\sffamily\normalsize\bfseries}{}{0pt}{}
+\titlespacing*{\subsection}{0pt}{5pt}{2pt}
+\setlist{nosep,leftmargin=*}
+
+% dated entry: \entry{dates}{text}
+\newcommand{\entry}[2]{\noindent\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{27mm}>{\raggedright\arraybackslash}X@{}}#1 & #2\end{tabularx}\par\vspace{2pt}}
+\newcommand{\me}{\textbf{T.~Kameda}}
+
+\begin{document}
+
+%-------------------------------------------------------------------- header
+{\sffamily\fontsize{22}{26}\selectfont\bfseries Tomoaki Kameda}\par\vspace{3pt}
+{\sffamily\color{muted} Theoretical \& Computational Condensed Matter Physics}\par\vspace{5pt}
+{\small
+NIMS Junior Researcher, WPI-MANA, National Institute for Materials Science (NIMS), Tsukuba, Japan\\
+Ph.D.\ candidate, Kwansei Gakuin University, Japan (Ph.D.\ expected March 2027)\\[2pt]
+\href{mailto:tomoaki.kameda0205@gmail.com}{tomoaki.kameda0205@gmail.com} \;$\cdot$\;
+\href{https://kamecham.github.io/TomoakiKameda.github.io/}{kamecham.github.io/TomoakiKameda.github.io} \;$\cdot$\;
+ORCID \href{https://orcid.org/0009-0005-1977-9178}{0009-0005-1977-9178} \;$\cdot$\;
+\href{https://scholar.google.com/citations?user=HvIXeq4AAAAJ}{Google Scholar} \;$\cdot$\;
+\href{https://github.com/kamecham}{GitHub}\par}
+
+%-------------------------------------------------------------------- summary
+\needspace{5\baselineskip}\section{Research Profile}
+I study how crystal symmetry and the structure of electronic wave functions determine electronic, topological, and optical properties of two-dimensional materials. Combining first-principles calculations, tight-binding modeling, and linear/nonlinear response theory, I have clarified the microscopic mechanisms of light-induced pure spin currents in Janus transition-metal dichalcogenides, symmetry-selective shift currents in polar multidomain structures, and Zak-phase-induced topological edge states. Before my doctoral studies, I worked for four years as a systems engineer in industry.
+
+\smallskip
+{\small\textbf{At a glance:} 6 peer-reviewed papers (2 first-author) $\cdot$ 4 under review $\cdot$ 18 first-author presentations (7 international) $\cdot$ 3 awards $\cdot$ 4 competitive grants as PI (approx.\ JPY 2.5M)}
+
+%-------------------------------------------------------------------- positions
+\needspace{5\baselineskip}\section{Positions}
+\entry{2026.06 -- present}{\textbf{NIMS Junior Researcher}, International Center for Materials Nanoarchitectonics (WPI-MANA), National Institute for Materials Science (NIMS), Tsukuba, Japan}
+\entry{2024.08 -- 2026.05}{\textbf{Research Assistant}, Kwansei Gakuin University, Japan}
+\entry{2024.01 -- 2024.03}{\textbf{Special Researcher}, School of Science and Technology, Kwansei Gakuin University, Japan}
+\entry{2019.04 -- 2023.05}{\textbf{Systems Engineer}, Management Information Center Co., Ltd., Osaka, Japan\newline
+{\small Automotive embedded software (C/C++), web applications, CI/CD-based test automation; programming training for new employees}}
+
+%-------------------------------------------------------------------- education
+\needspace{5\baselineskip}\section{Education}
+\entry{2024.04 -- 2027.03}{\textbf{Ph.D.\ course} (Ph.D.\ in Science expected March 2027), Department of Nanotechnology for Sustainable Energy, Graduate School of Science and Technology, Kwansei Gakuin University. Advisor: Prof.\ Katsunori Wakabayashi}
+\entry{2019.03}{\textbf{M.S.\ in Physics}, Graduate School of Science and Technology, Kwansei Gakuin University. Advisor: Prof.\ Katsunori Wakabayashi}
+\entry{2017.03}{\textbf{B.S.\ in Physics}, School of Science and Technology, Kwansei Gakuin University}
+
+%-------------------------------------------------------------------- publications
+\needspace{5\baselineskip}\section{Publications}
+\subsection{Peer-reviewed articles}
+\begin{enumerate}[label={[\arabic*]},leftmargin=7mm]
+\item R.~Nanae, \me, K.~Wakabayashi, K.~Nagashio \textit{et al.}, ``Domain engineering and anisotropic domain-wall photovoltaic effects in ferroelectric SnS,'' \href{https://doi.org/10.1002/adfm.77741}{\textit{Adv.\ Funct.\ Mater.}\ \textbf{36}, e77741 (2026)}.
+\item K.~Wakabayashi, S.~Adhikary, and \me, ``Transconductance as a probe of valley thermodynamics in multilayer WSe$_2$,'' \href{https://doi.org/10.1103/xsr9-l7ll}{\textit{Phys.\ Rev.\ B} \textbf{114}, 115403 (2026)}.
+\item Y.~Kusunoki, \me, and K.~Wakabayashi, ``Shift current conductivity in monolayer SnS: a tight-binding analysis,'' \href{https://doi.org/10.7566/JPSJ.95.074802}{\textit{J.\ Phys.\ Soc.\ Jpn.}\ \textbf{95}, 074802 (2026)}.
+\item S.~Adhikary, \me, and K.~Wakabayashi, ``Optically induced spin Hall current in monolayer Janus NbSSe: a first-principles study,'' \href{https://doi.org/10.1039/D5CP02135A}{\textit{Phys.\ Chem.\ Chem.\ Phys.}\ \textbf{27}, 19997 (2025)}.
+\item \me\ and K.~Wakabayashi, ``Optically induced spin Hall current in Janus transition-metal dichalcogenides,'' \href{https://doi.org/10.1103/PhysRevB.111.195425}{\textit{Phys.\ Rev.\ B} \textbf{111}, 195425 (2025)}.
+\item \me, F.~Liu, S.~Dutta, and K.~Wakabayashi, ``Topological edge states induced by Zak's phase in A$_3$B monolayers,'' \href{https://doi.org/10.1103/PhysRevB.99.075426}{\textit{Phys.\ Rev.\ B} \textbf{99}, 075426 (2019)}.
+\end{enumerate}
+
+\subsection{Under review}
+\begin{enumerate}[label={[\arabic*]},leftmargin=7mm,resume]
+\item \me, K.~Nagashio, and K.~Wakabayashi, ``Symmetry-selective shift current in polar multidomain superlattices,'' submitted to \textit{Phys.\ Rev.\ B}; \href{https://arxiv.org/abs/2611.05990}{arXiv:2611.05990}.
+\item K.~Wakabayashi, S.~Adhikary, \me, and K.~Tsukagoshi, ``Symmetry-enabled ferroelectric valley transduction in rhombohedral bilayer WSe$_2$,'' submitted to \textit{Phys.\ Rev.\ Lett.}; \href{https://arxiv.org/abs/2611.15494}{arXiv:2611.15494}.
+\item K.~Wakabayashi, S.~Adhikary, \me, and K.~Tsukagoshi, ``Ferroelectric control of the K--$\Gamma$ valley landscape in R-stacked bilayer WSe$_2$,'' submitted to \textit{Phys.\ Rev.\ B}; \href{https://arxiv.org/abs/2611.19705}{arXiv:2611.19705}.
+\item S.~Adhikary, \me, and K.~Wakabayashi, ``Stacking- and component-dependent origins of optical spin currents in a nickel telluride heterostructure,'' submitted to \textit{Commun.\ Phys.}
+\end{enumerate}
+
+%-------------------------------------------------------------------- awards & grants
+\needspace{5\baselineskip}\section{Awards}
+\entry{2026.03}{\textbf{Sasakawa Scientific Research Encouragement Award}, The Japan Science Society (14 selected from 302 FY2025 grantees)}
+\entry{2025.12}{\textbf{Outstanding Presentation Award}, WINDS 2025 (Workshop on Innovative Nanoscale Devices and Systems)}
+\entry{2025.01}{\textbf{Nitta Memorial Award}, Kwansei Gakuin University}
+
+\needspace{5\baselineskip}\section{Research Grants (as Principal Investigator)}
+\entry{FY2026}{Research and Development Grant, Yashima Environment Technology Foundation --- JPY 1,000,000}
+\entry{FY2026}{Overseas Presentation Grant, The Japan Science Society (No.\ F26-214) --- JPY 290,000}
+\entry{FY2025}{Sasakawa Scientific Research Grant, The Japan Science Society (No.\ 2025-2015) --- JPY 1,000,000 (302 awarded from 1,417 applicants)}
+\entry{FY2025}{International Exchange Grant, Marubun Research Promotion Foundation --- JPY 200,000}
+
+%-------------------------------------------------------------------- presentations
+\needspace{5\baselineskip}\section{Presentations}
+\subsection{Invited talk}
+\entry{2026.04}{Award lecture, Sasakawa Scientific Research Encouragement Award, The Japan Science Society (oral and poster).}
+
+\subsection{International conferences (first author)}
+\entry{2026.10}{``Spin transport phenomena in Janus transition metal dichalcogenides,'' MANA International Symposium 2026, NIMS, Tsukuba (poster).}
+\entry{2026.10}{``Spin transport phenomena in Janus transition metal dichalcogenides,'' Frontiers in Two-Dimensional Materials, NIMS, Tsukuba (poster).}
+\entry{2026.08}{``Spin current generation in Janus transition metal dichalcogenides,'' NT26 --- 26th International Conference on the Science and Applications of Nanotubes and Low-Dimensional Materials, Berlin, Germany (oral).}
+\entry{2026.06--07}{``Spin transport phenomena in Janus transition metal dichalcogenides,'' 2D Transition Metal Dichalcogenides 2026, National University of Singapore (poster).}
+\entry{2025.12}{``Spin transport phenomena in Janus transition metal dichalcogenides,'' WINDS 2025, Waikoloa, Hawaii, USA (oral) --- \textit{Outstanding Presentation Award}.}
+\entry{2025.11}{``Nonlinear Hall spin current in Janus transition metal dichalcogenides,'' Recent Progress in Graphene and Two-dimensional Materials Research Conference 2025, Toyama (poster).}
+\entry{2018.11}{``Topological edge states induced by Zak's phase in A$_3$B monolayers,'' 31st International Microprocesses and Nanotechnology Conference (MNC 2018), Sapporo (poster).}
+
+\smallskip
+{\small In addition: 11 first-author domestic presentations (JPS and JSAP meetings, FNTG symposia, JST CREST seminars) and 6 co-authored presentations. Full list: \href{https://kamecham.github.io/TomoakiKameda.github.io/publications/}{kamecham.github.io/TomoakiKameda.github.io/publications}.}
+
+%-------------------------------------------------------------------- skills
+\needspace{5\baselineskip}\section{Skills}
+\entry{Electronic structure}{First-principles (DFT) calculations of 2D materials with VASP and Quantum ESPRESSO}
+\entry{Modeling \& symmetry}{Effective tight-binding models with Wannier90 and in-house codes; group-theoretical analysis of response tensors}
+\entry{Response theory}{Kubo-formula calculations of linear and nonlinear optical responses (spin current, shift current) with in-house, performance-optimized Python codes; Berry phase and topological invariants}
+\entry{Programming}{Python, C/C++, Fortran, Mathematica, Git, Linux, \LaTeX}
+\entry{Qualifications}{Applied Information Technology Engineer Examination, IPA, Japan (2023.12)}
+\entry{Languages}{Japanese (native); English (scientific writing and international oral presentations)}
+
+\smallskip
+{\footnotesize\color{muted} Last updated: November 2026}
+\end{document}
